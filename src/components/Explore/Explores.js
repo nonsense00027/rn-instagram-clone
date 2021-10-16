@@ -4,7 +4,6 @@ import tw from "tailwind-react-native-classnames";
 import ExploresItem from "./ExploresItem";
 
 const Explores = ({ data }) => {
-  console.log("data here", data);
   const renderItem = ({ item }) => <ExploresItem item={item} />;
 
   return (

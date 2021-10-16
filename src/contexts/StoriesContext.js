@@ -8,7 +8,6 @@ export const StoriesContext = createContext();
 export const StoriesProvider = ({ children }) => {
   const { database, storage } = useFirebaseContext();
   const [stories, setStories] = useState([]);
-  console.log("stories", stories);
   useEffect(
     () =>
       database

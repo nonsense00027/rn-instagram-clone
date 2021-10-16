@@ -18,7 +18,6 @@ const Stories = ({ data }) => {
   const handlePersonalStory = () => {
     const stories = getStories(user.id);
     if (stories.length > 0) {
-      // console.log("naa", stories);
       navigation.navigate("Story", { stories: stories });
     } else {
       navigation.navigate("StoryUpload");
