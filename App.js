@@ -11,7 +11,6 @@ export default function App() {
       <AuthProvider>
         <StyleProvider>
           <Main />
-          {/* <StoryCarousel /> */}
         </StyleProvider>
       </AuthProvider>
     </FirebaseProvider>
